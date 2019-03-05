@@ -3,7 +3,7 @@ services:
 
   unity:
     build:
-      context: unity/
+      context: /
     image: unity:latest
     restart: unless-stopped
     ports:
